@@ -7,7 +7,7 @@
    /* width:60%;
      right:-300px;*/
     position: relative; 
-    background: #fff url(../bilder/loading.gif) no-repeat 50% 50%;
+    background: #fff url(../../../bilder/loading.gif) no-repeat 50% 50%;
     -moz-box-shadow: 0 0 3px rgba(0,0,0,0.4);
     -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.4);
     box-shadow: 0 0 3px rgba(0,0,0,0.4);
@@ -47,7 +47,7 @@
     display: block;
     width: 26px;
     height: 37px;
-    background: url(../bilder/arrows.png) no-repeat 0 0;
+    background: url(../../../bilder/arrows.png) no-repeat 0 0;
     text-indent: -9999px;
 }
 #slider-direction-nav .lean-slider-next {
@@ -73,7 +73,7 @@
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url(../bilder/bullets.png) no-repeat 0 0;
+    background: url(../../../bilder/bullets.png) no-repeat 0 0;
     text-indent: -9999px;
     margin: 0 3px;
     -webkit-transition: none;

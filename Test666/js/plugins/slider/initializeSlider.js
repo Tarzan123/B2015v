@@ -1,13 +1,9 @@
 ﻿
 
+    $(document).ready(function () {
+        setTimeout();
+    })
 
-$(document).ready(function(){
-
-  setTimeout();
-
-})
-
-    
     setTimeout(function () {
 
         if ($("#slider").children.length > 0) {
@@ -19,4 +15,6 @@ $(document).ready(function(){
 
         }
 
-}, 1000);
+    }, 300);
+
+

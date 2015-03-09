@@ -12,10 +12,20 @@
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <script src="js/modernizr.custom.36076.js"></script>
+    <script src="js/plugins/modernizr.custom.36076.js"></script>
+
+    <script>
+    $.holdReady(true);
+    $.getScript("js/ajaxVideo/initializeVideo.js", function () {
+        $.holdReady(false);
+        $.getScript("js/plugins/slider/initializeSlider.js");
+        $.getScript("js/plugins/slider/lean-slider.js");
+    });
+    </script>
+
 
     <!--Prosjekt eget-->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="css/plugin/bootstrap.min.css">-->
 	<link rel="stylesheet" href="css/LeftNav.css">
 	<link rel="stylesheet" href="css/bokappcss.css">
 	
@@ -23,36 +33,20 @@
 	<!--SCROLLING-->
 	<link rel="stylesheet" type="text/css" href="scrolling/jquery.fullPage.css" />
 
-    <script type="text/javascript" src="js/intializeScroll.js"></script>
+    <script type="text/javascript" src="js/plugins/scroll/initializeScroll.js"></script>
 	<script type="text/javascript" src="scrolling/jquery.fullPage.js"></script>
 
 
     <!--Image galley-->
-    <link rel="stylesheet" href="css/lean-slider.css" type="text/css" />
-    <link rel="stylesheet" href="css/sample-styles.css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/mediaQueries.css" type="text/css"/>
+    <link rel="stylesheet" href="css/plugin/slider/lean-slider.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin/slider/sample-styles.css" />
+    <link rel="stylesheet" href="css/plugin/slider/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/media-queries/mediaQueries.css" type="text/css" />
 
-   <!--<script src="js/modernizr-2.6.1.min.js"></script>--> 
-
-    <script src="js/initializeVideo.js"></script>
-    <script src="js/intializeSlider.js"></script>
-    <script src="js/lean-slider.js"></script>
-
-         
+     
 </head>
 
 <body>
-    <!--<div class="header-cont">
-		<div class="header">
-			<div id="stats">
-				<img id="profilbilde" alt="hei" src="">
-				<p><strong>Book-Lovah</strong><br> Level: 8 <br> Bidrag: 6</p>
-			</div>
-			<h1>Bokapp</h1>
-		</div>
-	</div>-->
-	
 	
 <div id="fullpage">
 	<section  id="section1" class="section">
@@ -96,7 +90,7 @@
                         <button type="button" class="btn btn-default">Last Opp</button>
 
                     </p>
-                    <img src="bilder/Render - Avatar_Toph.png" style="height:50%; width:60%;" />
+                    <img src="bilder/Render - Avatar_Toph.png" style="max-height:200px; max-width:150px; margin: -40px;" />
                   
                 </div>
             </div>
@@ -104,10 +98,6 @@
 
 	</section>
 	
-
-
-
-
 	<section  id="section2" class="section">
 		<!-- content here -->
 	</section>
@@ -150,8 +140,6 @@
 
 </ul>
 
-
 </body>
-
 
 </html>

@@ -106,19 +106,19 @@
     <Content Include="bilder\trophy71.png" />
     <Content Include="BokAppSkisse.html" />
     <Content Include="css\bokappcss.css" />
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\lean-slider.css" />
+    <Content Include="css\plugin\bootstrap.min.css" />
+    <Content Include="css\plugin\slider\lean-slider.css" />
     <Content Include="css\LeftNav.css" />
-    <Content Include="css\mediaQueries.css" />
-    <Content Include="css\sample-styles.css" />
-    <Content Include="css\style.css" />
+    <Content Include="css\media-queries\mediaQueries.css" />
+    <Content Include="css\plugin\slider\sample-styles.css" />
+    <Content Include="css\plugin\slider\style.css" />
     <Content Include="Global.asax" />
-    <Content Include="js\initializeVideo.js" />
-    <Content Include="js\intializeScroll.js" />
-    <Content Include="js\intializeSlider.js" />
-    <Content Include="js\lean-slider.js" />
-    <Content Include="js\modernizr-2.6.1.min.js" />
-    <Content Include="js\modernizr.custom.36076.js" />
+    <Content Include="js\ajaxVideo\initializeVideo.js" />
+    <Content Include="js\plugins\scroll\initializeScroll.js" />
+    <Content Include="js\plugins\slider\initializeSlider.js" />
+    <Content Include="js\plugins\slider\lean-slider.js" />
+    <Content Include="js\plugins\modernizr-2.6.1.min.js" />
+    <Content Include="js\plugins\modernizr.custom.36076.js" />
     <Content Include="junk\RightNav.css" />
     <Content Include="scrolling\jquery.fullPage.css" />
     <Content Include="scrolling\jquery.fullPage.js" />
@@ -151,9 +151,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
