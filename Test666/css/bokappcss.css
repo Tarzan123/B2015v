@@ -1,0 +1,61 @@
+*{
+    /* A universal CSS reset */
+    margin:0;
+    padding:0;
+}
+body, html{
+	height: 100%;
+}
+*/
+.header-cont {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+.header {
+	height: 70px;
+	background: #EAEAEA;
+	border: 1px solid #FBFBFB;
+	margin: 0px auto;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+}
+.header h1{
+	font-size: 44px;
+	margin: 7px;
+}
+#stats{
+	float:right;
+	text-align: left;
+	position: fixed;
+	}
+#stats img{
+	float: right;
+	height: 60px;
+	width: 60px;
+	margin: 4px;
+	position:fixed;
+	right: 0px;
+}
+#stats p{
+	position: fixed;
+	right: 70px;
+	font-size: 15px;
+}
+/*
+.section {
+  min-height: 100%;
+  position: relative;
+  padding: 2px;
+}
+.section:nth-of-type(odd) {
+  background-color: #3e3947;
+}
+.section:nth-of-type(even) {
+  background-color: #745360;
+}
+*/
+

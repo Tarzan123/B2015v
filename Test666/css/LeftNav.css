@@ -1,0 +1,130 @@
+﻿/*
+Hentet ide og lånt kode av
+http://tutorialzine.com/2010/06/css3-minimalistic-navigation-menu/
+*/
+
+#navL{
+	position: fixed;
+	top: 30%;
+	/*borders*/
+	border: 2px solid green;
+	border-radius: 5px;
+	}
+#navL li{
+    list-style:none;
+    height:70px;
+    width:70px;
+}
+#navL span{
+    /* Container properties */
+    width:0;
+	height: 70px;
+    left:70px;
+    padding:0;
+    position:absolute;
+    overflow:hidden;
+
+    /* Text properties */
+    font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    letter-spacing:0.6px;
+    white-space:nowrap;
+    line-height:70px;
+
+    /* CSS3 Transition: */
+    -webkit-transition: 0.25s;
+
+    /* Future proofing (these do not work yet): */
+    -moz-transition: 0.25s;
+    transition: 0.25s;
+	
+	/*Borders på drop-out menyen*/
+	border: 2px solid green;
+	border-radius: 5px;
+	border-left: none;
+}
+
+#navL a{
+    /* The background sprite: */
+	background-color: #7da315;
+    height:70px;
+    width:70px;
+    display:block;
+    position:relative;
+	/*Border mellom knappene*/
+	border-bottom: 2px solid green;
+}
+#navL a.ukes {
+	background-image: url("../bilder/hjem.png");
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+#navL a.profil {
+	background-image: url("../bilder/profil.png");
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+#navL a.aktiv {
+	background-image: url("../bilder/aktiviteter.png");
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+#navL a.settings {
+	background-image: url("../bilder/instillinger2.png");
+	background-repeat: no-repeat;
+    background-position: center; 
+	/*Ikke border på nederste knapp*/
+	border-bottom: 0px solid green;
+}
+
+/* General hover styles */
+
+#navL a:hover span{ width:auto; padding:0 20px;overflow:visible; }
+#navL a:hover{
+    text-decoration:none;
+
+    /* CSS outer glow with the box-shadow property */
+    -moz-box-shadow:0 0 5px #9ddff5;
+    -webkit-box-shadow:0 0 5px #9ddff5;
+    box-shadow:0 0 5px #9ddff5;
+}
+/* Green Button */
+
+#navL .ukes { background-image: url('../bilder/ukes.png') no-repeat; }
+#navL .ukes:hover { background-color: #EAEAEA;}
+#navL .ukes span{
+    background-color:#7da315;
+    color:#3d4f0c;
+    text-shadow:1px 1px 0 #99bf31;
+}
+
+/* Blue Button */
+
+#navL .profil { background-image: url('../bilder/profil.png') no-repeat; }
+#navL .profil:hover { background-color: #EAEAEA;}
+#navL .profil span{
+    background-color:#7da315;
+    color:#3d4f0c;
+    text-shadow:1px 1px 0 #99bf31;
+}
+
+/* Orange Button */
+
+#navL .aktiv { background-image: url('../bilder/aktiv.png') no-repeat; }
+#navL .aktiv:hover { background-color: #EAEAEA;}
+#navL .aktiv span{
+    background-color:#7da315;
+    color:#3d4f0c;
+    text-shadow:1px 1px 0 #99bf31;
+}
+
+/* Yellow Button */
+
+#navL .settings { background-image: url('../bilder/ukes.png') no-repeat; }
+#navL .settings:hover{ background-color: #EAEAEA;}
+#navL .settings span{
+    background-color:#7da315;
+    color:#3d4f0c;
+    text-shadow:1px 1px 0 #99bf31;
+}

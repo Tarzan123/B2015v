@@ -1,0 +1,31 @@
+
+ #navR {
+	/*fix the navigation*/
+  	position: fixed;
+  	right: 0px;
+  	top: 50%;
+	background-color: #EAEAEA;
+	list-style:none;
+    padding:2px;
+    width:140px;
+	background-color: #7da315;	
+}
+#navR a{
+	color: white;
+}
+.active  {
+	font-size: 300px;
+}
+ 
+ /*
+ #vertical-nav a:hover span {
+ 	/*scale up navigation dots and labels*//*
+  	transform: scale(1);
+}
+ 
+ #navR a:hover .cd-label {
+	/*show labels*//*
+ 	opacity: 1;
+}
+
+*/

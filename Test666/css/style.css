@@ -1,0 +1,27 @@
+/*=================================*/
+/* Lean Slider Demo
+/* October 2012
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+p {
+    font-size:18px;
+    font-weight:bolder;
+    color:white;
+}
+div,  img{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* Sharper Thumbnails */
+img {
+  -ms-interpolation-mode: bicubic; }
+
+
