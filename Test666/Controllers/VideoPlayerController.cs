@@ -12,8 +12,7 @@ namespace Test666.Controllers
         // GET: api/VideoPlayer
         public IEnumerable<video> Get()
         {
-
-          /* VideoLinkDataContext db = new VideoLinkDataContext();
+            /* VideoLinkDataContext db = new VideoLinkDataContext();
 
            return db.videos.ToArray();*/
 
