@@ -16,8 +16,16 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script src="js/plugins/modernizr.custom.36076.js"></script>
 
-
-    <!--Prosjekt egen CSS-->
+ 
+    <script>
+        $(document).ready(function () {
+            $.getScript("js/ajaxVideo/initializeVideo.js");
+            $.getScript("js/plugins/slider/initializeSlider.js");
+            $.getScript("js/plugins/slider/lean-slider.js");
+        });
+    </script>
+    
+    <!--Prosjekt eget-->
 	<link rel="stylesheet" href="css/LeftNav.css">
 	<link rel="stylesheet" href="css/bokappcss.css">
 	
