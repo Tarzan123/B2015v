@@ -1,10 +1,6 @@
 ﻿
 
-    $(document).ready(function () {
-        setTimeout();
-    })
-
-    setTimeout(function () {
+setTimeout(function () {
 
         if ($("#slider").children.length > 0) {
 
@@ -15,6 +11,6 @@
 
         }
 
-    }, 700);
+}, 1000);
 
-
+   

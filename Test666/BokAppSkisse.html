@@ -14,16 +14,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script src="js/plugins/modernizr.custom.36076.js"></script>
 
- 
-    <script>
-        $(document).ready(function () {
-            $.getScript("js/ajaxVideo/initializeVideo.js");
-            $.getScript("js/plugins/slider/initializeSlider.js");
-            $.getScript("js/plugins/slider/lean-slider.js");
-        });
-    </script>
-    
-    <!--Prosjekt eget-->
+
+    <!--Prosjekt egen CSS-->
 	<link rel="stylesheet" href="css/LeftNav.css">
 	<link rel="stylesheet" href="css/bokappcss.css">
 	
@@ -40,6 +32,18 @@
     <link rel="stylesheet" href="css/plugin/slider/sample-styles.css" />
     <link rel="stylesheet" href="css/plugin/slider/style.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/media-queries/mediaQueries.css" type="text/css" />
+
+    <script src="js/ajaxVideo/initializeVideo.js"></script>
+
+    <script>
+        $(window).load(function () {
+            // weave your magic here.
+            $.getScript("js/plugins/slider/initializeSlider.js");
+            $.getScript("js/plugins/slider/lean-slider.js");
+        });
+
+    </script>
+
 
     <!--Flex bildegalleri (SLIDE 3)-->
     <link rel="stylesheet" href="flex/flexslider.css" type="text/css">
@@ -194,5 +198,6 @@
 </ul>
 
 </body>
+
 
 </html>
