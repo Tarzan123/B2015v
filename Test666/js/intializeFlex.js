@@ -13,9 +13,9 @@
 			( (window.innerWidth || document.documentElement.clientWidth) < 900) ? 2 : 3;*/
   }
  
-  $(function() {
+  /*$(function() {
     SyntaxHighlighter.all();
-  });
+  });*/
  
   $window.load(function() {
         $('.flexslider').flexslider({
