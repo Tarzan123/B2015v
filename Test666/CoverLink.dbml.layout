@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CoverLink">
+  <DataContextMoniker Name="/CoverLinkDataContext" />
+  <nestedChildShapes>
+    <classShape Id="baf92fbd-2d4c-4eca-b53f-8947abce2ca9" absoluteBounds="5.125, 1.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/CoverLinkDataContext/CoverDB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5147657a-f060-41cf-ac5f-9339111eb4f3" absoluteBounds="5.14, 1.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

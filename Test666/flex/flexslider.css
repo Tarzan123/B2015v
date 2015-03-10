@@ -45,8 +45,6 @@
 .flexslider {
   margin: 0;
   padding: 0;
-  width: 70%;
-  left: 15%;
 }
 .flexslider .slides > li {
   display: none;
@@ -54,10 +52,7 @@
 }
 .flexslider .slides img {
   width: 100%;
-  height: 300px;
   display: block;
-  padding: 5px;
-  /*border: 5px solid white;*/
 }
 .flexslider .slides:after {
   content: "\0020";
@@ -97,7 +92,7 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
 }
 .flexslider .slides img {
-  height: 500px;
+  height: auto;
 }
 .flex-viewport {
   max-height: 2000px;

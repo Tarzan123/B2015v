@@ -35,23 +35,27 @@
     <link rel="stylesheet" href="css/media-queries/mediaQueries.css" type="text/css" />
 
     <script src="js/ajaxVideo/initializeVideo.js"></script>
-
-    <script>
-        $(window).load(function () {
-            $.getScript("js/plugins/slider/initializeSlider.js");
-            $.getScript("js/plugins/slider/lean-slider.js");
-        });
-
-    </script>
+    <script src="js/plugins/slider/initializeSlider.js"></script>
+    <script src="js/plugins/slider/lean-slider.js"></script>
 
 
     <!--Flex bildegalleri (SLIDE 3)-->
+
+
+    <script src="js/ajaxCover/initializeCover.js"></script>
+
+    <!-- Syntax Highlighter -->
+
+    <script src="js/plugins/flexSlider/shCore.js"></script>
+    <script src="js/plugins/flexSlider/shBrushJScript.js"></script>
+    <script src="js/plugins/flexSlider/shBrushXml.js"></script>
+
+    <script src="flex/jquery.flexslider-min.js"></script>
+    <script src="js/plugins/flexSlider/intializeFlex.js"></script>
+
+
     <link rel="stylesheet" href="flex/flexslider.css" type="text/css">
-    <script src="flex/jquery.flexslider.js"></script>
-    <script src="js/intializeFlex.js"></script>
-
-
-     
+         
 </head>
 
 <body>
@@ -109,53 +113,11 @@
 	<section  id="section2" class="section">
 		<!-- content here -->
 
-
-
-        <div class="flexslider">
-            <ul class="slides">
-
-                <li>
-                    <img class="img-rounded" src="bilder/gameofthrones1.jpg" alt="" />
-                </li>
-
-                <li>
-                    <img class="img-rounded" src="bilder/gameofthrones2.jpg" alt="" />
-                </li>
-
-                <li>
-                    <img class="img-rounded" src="bilder/gameofthrones3.jpg" alt="" />
-                </li>
-
-                <li>
-                    <img class="img-rounded" src="bilder/gameofthrones4.jpg" alt="" />
-                </li>
-
-                <li>
-                    <img class="img-rounded" src="bilder/gameofthrones5.jpg" alt="" />
-                </li>
-                <li>
-                    <img class="img-rounded" src="bilder/gameofthrones1.jpg" alt="" />
-                </li>
-
-                <li>
-                    <img class="img-rounded" src="bilder/gameofthrones2.jpg" alt="" />
-                </li>
-
-                <li>
-                    <img class="img-rounded" src="bilder/gameofthrones3.jpg" alt="" />
-                </li>
-
-                <li>
-                    <img class="img-rounded" src="bilder/gameofthrones4.jpg" alt="" />
-                </li>
-
-                <li>
-                    <img class="img-rounded" src="bilder/gameofthrones5.jpg" alt="" />
-                </li>
-
-            </ul>
+        <div class="container">
+            <div class="flexslider">
+                <ul class="slides"></ul>
+            </div>
         </div>
-
 
 	</section>
  
