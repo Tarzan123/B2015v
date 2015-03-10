@@ -92,6 +92,11 @@
     <Content Include="bilder\bullets.png" />
     <Content Include="bilder\cat-08.jpg" />
     <Content Include="bilder\Dog_one.jpg" />
+    <Content Include="bilder\gameofthrones1.jpg" />
+    <Content Include="bilder\gameofthrones2.jpg" />
+    <Content Include="bilder\gameofthrones3.jpg" />
+    <Content Include="bilder\gameofthrones4.jpg" />
+    <Content Include="bilder\gameofthrones5.jpg" />
     <Content Include="bilder\grilla.jpg" />
     <Content Include="bilder\guinea-pig-tan.jpg" />
     <Content Include="bilder\hjem.png" />
@@ -112,8 +117,15 @@
     <Content Include="css\media-queries\mediaQueries.css" />
     <Content Include="css\plugin\slider\sample-styles.css" />
     <Content Include="css\plugin\slider\style.css" />
+    <Content Include="flex\changelog.txt" />
+    <Content Include="flex\flexslider.css" />
+    <Content Include="flex\fonts\flexslider-icon.svg" />
+    <Content Include="flex\images\bg_play_pause.png" />
+    <Content Include="flex\jquery.flexslider-min.js" />
+    <Content Include="flex\jquery.flexslider.js" />
     <Content Include="Global.asax" />
     <Content Include="js\ajaxVideo\initializeVideo.js" />
+    <Content Include="js\intializeFlex.js" />
     <Content Include="js\plugins\scroll\initializeScroll.js" />
     <Content Include="js\plugins\slider\initializeSlider.js" />
     <Content Include="js\plugins\slider\lean-slider.js" />
@@ -144,6 +156,19 @@
       <LastGenOutput>VideoLink.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="flex\CONTRIBUTING.md" />
+    <Content Include="flex\css\base.less" />
+    <Content Include="flex\css\font.less" />
+    <Content Include="flex\css\mixins.less" />
+    <Content Include="flex\css\resets.less" />
+    <Content Include="flex\css\responsive.less" />
+    <Content Include="flex\css\theme.less" />
+    <Content Include="flex\css\variables.less" />
+    <Content Include="flex\flexslider.less" />
+    <Content Include="flex\fonts\flexslider-icon.eot" />
+    <Content Include="flex\fonts\flexslider-icon.ttf" />
+    <Content Include="flex\fonts\flexslider-icon.woff" />
+    <Content Include="flex\README.mdown" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
