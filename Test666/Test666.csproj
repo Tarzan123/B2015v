@@ -129,6 +129,9 @@
     <Content Include="flex\jquery.flexslider-min.js" />
     <Content Include="flex\jquery.flexslider.js" />
     <Content Include="Global.asax" />
+    <Content Include="html\favoriter.html" />
+    <Content Include="html\innstillinger.html" />
+    <Content Include="html\profil.html" />
     <Content Include="js\ajaxCover\initializeCover.js" />
     <Content Include="js\ajaxVideo\initializeVideo.js" />
     <Content Include="js\plugins\flexSlider\intializeFlex.js" />
