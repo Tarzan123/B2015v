@@ -93,6 +93,8 @@
     <Content Include="bilder\4.jpg" />
     <Content Include="bilder\aktiviteter.png" />
     <Content Include="bilder\arrows.png" />
+    <Content Include="bilder\bakgrunn\bildeNr1.png" />
+    <Content Include="bilder\bakgrunn\bokNr2.png" />
     <Content Include="bilder\bullets.png" />
     <Content Include="bilder\cat-08.jpg" />
     <Content Include="bilder\Dog_one.jpg" />
