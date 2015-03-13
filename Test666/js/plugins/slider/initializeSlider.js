@@ -1,6 +1,8 @@
 ﻿
+$(document).ready(function () {
 
-setTimeout(function () {
+
+    setTimeout(function () {
 
         if ($("#slider").children.length > 0) {
 
@@ -9,7 +11,13 @@ setTimeout(function () {
                 controlNav: '#slider-control-nav'
             });
 
+
+          //  $.getScript("lean-slider.js");
         }
 
-}, 1000);
+    }, 1000);
+
+});
+
+
 
