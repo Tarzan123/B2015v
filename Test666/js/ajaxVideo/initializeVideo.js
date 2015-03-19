@@ -9,18 +9,12 @@
             var url = x.Url;
 
             $("#slider").append("<div id='isContent' class='slide" + id + "'>" +
-                                "<img src='bilder/" + url + "' alt='slide" + tittel + "' class='img-thumbnail'/>" +
+                                "<img src='bilder/" + url + "' alt='slide" + tittel + "' class='img-thumbnail' data-val='video'/>" +
                                 '</div>');
-
-            
         });
 
-        //$.getScript("../plugins/slider/initializeSlider.js");
+        initSlider();
 
-        //initSlider();
-
-
-        alert(results);
     }).fail(function () {
 
         alert("det feilet");

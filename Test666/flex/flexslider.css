@@ -49,8 +49,11 @@
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
+  height:320px;
+
 }
 .flexslider .slides img {
+  
   width: 100%;
   display: block;
 }
@@ -92,7 +95,8 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
 }
 .flexslider .slides img {
-  height: auto;
+  height: inherit;
+  padding: 2.5px;
 }
 .flex-viewport {
   max-height: 2000px;

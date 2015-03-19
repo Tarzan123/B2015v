@@ -145,9 +145,8 @@
     <Content Include="js\plugins\slider\lean-slider.js" />
     <Content Include="js\plugins\modernizr-2.6.1.min.js" />
     <Content Include="js\plugins\modernizr.custom.36076.js" />
-    <Content Include="junk\RightNav.css" />
-    <Content Include="scrolling\jquery.fullPage.css" />
-    <Content Include="scrolling\jquery.fullPage.js" />
+    <Content Include="css\plugin\scroll\jquery.fullPage.css" />
+    <Content Include="js\plugins\scroll\jquery.fullPage.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -214,6 +213,7 @@
       <DependentUpon>CoverLink.dbml</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
